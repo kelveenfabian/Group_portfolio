@@ -11,14 +11,15 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".veenPortfolio"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".ChoosePerson">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JohnActivity" />
+        <activity android:name=".JohnActivity"
+            android:parentActivityName=".ChoosePerson"/>
         <activity android:name=".ChoosePerson"></activity>
     </application>
 

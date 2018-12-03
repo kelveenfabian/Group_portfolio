@@ -1,11 +1,8 @@
 <resources>
     <string name="app_name">Group Portfolio</string>
-<<<<<<< HEAD
-
-=======
     <string name="john_bio">THIS IS PLACEHOLDER TEXT</string>
     <string name="name_john">John</string>
     <string name="name_kelveen">Kelveen</string>
     <string name="name_evelyn">Evelyn</string>
->>>>>>> 375fc1bcc1ec0908df3ade504f025fdeed87e38f
+
 </resources>
