@@ -6,8 +6,7 @@
     <string name="name_evelyn">Evelyn</string>
     <string name="kelveen_bio">Kelveen is an Android Developer for Pursuit.</string>
     <string name="evelyn_bio">Evelyn Lucas is an Android Fellow at Pursuit. She was born and raised in Queens</string>
-
-
+    <string name="evelyn_photo_description">Evelyn Photo</string>
 
 
 </resources>
