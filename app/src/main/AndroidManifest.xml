@@ -18,9 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JohnActivity"
-            android:parentActivityName=".ChoosePerson"/>
-        <activity android:name=".ChoosePerson"></activity>
+        <activity
+            android:name=".JohnActivity"
+            android:parentActivityName=".ChoosePerson" />
+        <activity android:name=".ChoosePerson" />
+        <activity android:name=".EvelynActivity"></activity>
     </application>
 
 </manifest>
