@@ -9,20 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".veenPortfolio"
-            android:parentActivityName=".ChoosePerson">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".ChoosePerson" >
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
         <activity
             android:name=".JohnActivity"
             android:parentActivityName=".ChoosePerson" />
-        <activity android:name=".ChoosePerson" />
-        <activity android:name=".EvelynActivity"></activity>
+        <activity
+            android:name=".veenPortfolio"
+            android:parentActivityName=".ChoosePerson" />
+        <activity
+            android:name=".EvelynActivity"
+            android:parentActivityName=".ChoosePerson" />
     </application>
 
 </manifest>
