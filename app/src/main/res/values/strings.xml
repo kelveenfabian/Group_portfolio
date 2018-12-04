@@ -4,6 +4,10 @@
     <string name="name_john">John</string>
     <string name="name_kelveen">Kelveen</string>
     <string name="name_evelyn">Evelyn</string>
+    <string name="kelveen_bio">Kelveen is an Android Developer for Pursuit.</string>
     <string name="evelyn_bio">Evelyn Lucas is an Android Fellow at Pursuit. She was born and raised in Queens</string>
+
+
+
 
 </resources>

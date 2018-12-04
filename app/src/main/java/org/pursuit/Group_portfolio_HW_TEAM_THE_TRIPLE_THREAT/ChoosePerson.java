@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class ChoosePerson extends AppCompatActivity {
-private Button johnBtn;
+    private Button johnBtn;
+    private Button veenBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,15 @@ private Button johnBtn;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ChoosePerson.this, JohnActivity.class);
+                startActivity(intent);
+            }
+        });
+        
+        veenBtn = findViewById(R.id.btn_kelveen);
+        veenBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), veenPortfolio.class);
                 startActivity(intent);
             }
         });
