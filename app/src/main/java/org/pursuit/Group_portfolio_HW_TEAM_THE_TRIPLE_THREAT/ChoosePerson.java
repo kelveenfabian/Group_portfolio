@@ -9,6 +9,7 @@ import android.widget.Button;
 public class ChoosePerson extends AppCompatActivity {
     private Button johnBtn;
     private Button veenBtn;
+    private Button evelynBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,15 @@ public class ChoosePerson extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), veenPortfolio.class);
+                startActivity(intent);
+            }
+        });
+
+        evelynBtn = findViewById(R.id.btn_Evelyn);
+        evelynBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChoosePerson.this, EvelynActivity.class);
                 startActivity(intent);
             }
         });
