@@ -4,15 +4,15 @@
 
     <item
         android:id="@+id/textBased"
-        android:title="@string/veen_menu_one"
+        android:title="string/veen_menu_one"
         android:orderInCategory="1"/>
 
     <item android:id="@+id/bankteller"
-        android:title="@string/veen_menu_two"
+        android:title="string/veen_menu_two"
         android:orderInCategory="2"/>
 
     <item android:id="@+id/storyApp"
-        android:title="@string/veen_menu_three"
+        android:title="string/veen_menu_three"
         android:orderInCategory="3"/>
 
 </menu>

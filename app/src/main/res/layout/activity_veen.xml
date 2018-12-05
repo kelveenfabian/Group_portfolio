@@ -10,7 +10,7 @@
         android:id="@+id/kelveen_image"
         android:layout_width="398dp"
         android:layout_height="261dp"
-        android:contentDescription="@string/veen_img_desc"
+        android:contentDescription="string/veen_img_desc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
