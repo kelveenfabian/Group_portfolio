@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EvelynActivity">
+
+    <item
+        android:id="@+id/madlibs_app"
+        android:title="@string/evelyn_menu_one"
+        android:orderInCategory="1" />
+    <item
+        android:id="@+id/text_based_app"
+        android:title="@string/evelyn_menu_two"
+        android:orderInCategory="2" />
+    <item
+        android:id="@+id/java_bank_app"
+        android:title="@string/evelyn_menu_three"
+        android:orderInCategory="3" />
+</menu>
+

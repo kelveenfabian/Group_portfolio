@@ -16,6 +16,12 @@
     <string name="link_two">Project 2</string>
     <string name="link_three">Project 3</string>
     <string name="evelyn_photo_description">Evelyn Photo</string>
+    <string name="evelyn_url_one">https://github.com/evelynlucas/Story_App_HW_LUCAS_EVELYN</string>
+    <string name="evelyn_url_two">https://github.com/evelynlucas/CYOA_Pursuit_HW_LUCAS_EVELYN</string>
+    <string name="evelyn_url_three">https://github.com/evelynlucas/Java_Bank_Pursuit_HW_LUCAS_EVELYN</string>
+    <string name="evelyn_menu_one">Mad Libs App</string>
+    <string name="evelyn_menu_two">Adventure Game</string>
+    <string name="evelyn_menu_three">Bankteller Console</string>
 
 
 </resources>
