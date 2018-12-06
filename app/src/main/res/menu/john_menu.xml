@@ -5,10 +5,22 @@
     tools:context=".JohnActivity">
 
 
+<<<<<<< Updated upstream
     <item
         android:id="@+id/git_one"
         android:orderInCategory="1"
         android:title="@string/link_one"></item>
+=======
+<<<<<<< Updated upstream
+    <item android:title="Item"></item>
+    <item android:title="Item"></item>
+    <item android:title="Item"></item>
+=======
+    <item
+        android:id="@+id/git_one"
+            android:orderInCategory="1"
+            android:title="@string/link_one"></item>
+>>>>>>> Stashed changes
 
     <item
         android:id="@+id/git_two"
@@ -17,6 +29,12 @@
 
     <item
         android:id="@+id/git_three"
+<<<<<<< Updated upstream
         android:orderInCategory="3"
         android:title="@string/link_three"></item>
+=======
+        android:orderInCategory="3  "
+        android:title="@string/link_three"></item>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 </menu>
