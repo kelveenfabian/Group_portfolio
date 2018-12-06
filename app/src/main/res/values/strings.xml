@@ -3,7 +3,14 @@
     <!-- John -->
     <string name="app_name">Group Portfolio</string>
 
+    <string name="john_img_desc">This is John\'s photo</string>
+    <string name="john_bio">John is a former swim instructor turned coder, he loves eating and doing absolutely nothing.
+     He is currently enrolled at Pursuit, a highly competitive programming school with an acceptance rate of 10%.
+     Needless to say this boy knows what's up.</string>
+
+
     <!--ChoosePerson.java Button Names-->
+
     <string name="name_john">John</string>
     <string name="link_one">Project 1</string>
     <string name="link_two">Project 2</string>
