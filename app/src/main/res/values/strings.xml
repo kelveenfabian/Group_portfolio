@@ -44,5 +44,10 @@
         I\'m currently looking for opportunities that will allow me to continue building my skill set
         in either mobile applications or the gaming sector.</string>
 
+    <!--General Activity Information-->
+    <string name="noweb_toast_text">No Browser Available</string>
+    <string name="app_goal_text">Welcome! This app will introduce you to three of the most eager
+    Android developers etc</string>
+
 
 </resources>
