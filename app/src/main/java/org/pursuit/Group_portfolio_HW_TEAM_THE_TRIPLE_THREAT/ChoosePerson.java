@@ -20,7 +20,7 @@ public class ChoosePerson extends AppCompatActivity {
         johnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ChoosePerson.this, JohnActivity.class);
+                Intent intent = new Intent(view.getContext(), JohnActivity.class);
                 startActivity(intent);
             }
         });

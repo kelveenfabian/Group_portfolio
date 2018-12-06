@@ -1,9 +1,32 @@
 <resources>
+
+    <!-- John -->
     <string name="app_name">Group Portfolio</string>
 
     <!--ChoosePerson.java Button Names-->
     <string name="name_john">John</string>
+    <string name="link_one">Project 1</string>
+    <string name="link_two">Project 2</string>
+    <string name="link_three">Project 3</string>
+    <string name="url_one">https://github.com/garganjohn/Java-Bank.git</string>
+    <string name="url_two">https://github.com/garganjohn/Java-Bank.git</string>
+    <string name="url_three">https://github.com/garganjohn/Java-Bank.git</string>
+
+
+    <!-- Kelveen -->
     <string name="name_kelveen">Kelveen</string>
+
+    <string name="kelveen_bio">
+        I am an Android Developer at Pursuit with a passion for building mobile applications.
+        I have experience with applications that deal with managing accounts and customer information within limousine services,
+        building mobile games, and creating videos within technologies such as Adobe Premiere.
+        I\'m currently looking for opportunities that will allow me to continue building my skill set
+        in either mobile applications or the gaming sector.</string>
+    <string name="evelyn_bio">Evelyn Lucas is an Android Fellow at Pursuit. She was born and raised in Queens</string>
+
+    <!-- Evelyn -->
+    <string name="name_evelyn">Evelyn</string>
+
     <string name="name_evelyn">Evelyn</string>
 
     <!--John's Activity Information-->
@@ -14,6 +37,7 @@
     <string name="link_three">Project 3</string>
 
     <!--Evelyn's Activity Information-->
+
     <string name="evelyn_photo_description">Evelyn Photo</string>
     <string name="evelyn_url_one">https://github.com/evelynlucas/Story_App_HW_LUCAS_EVELYN</string>
     <string name="evelyn_url_two">https://github.com/evelynlucas/CYOA_Pursuit_HW_LUCAS_EVELYN</string>
