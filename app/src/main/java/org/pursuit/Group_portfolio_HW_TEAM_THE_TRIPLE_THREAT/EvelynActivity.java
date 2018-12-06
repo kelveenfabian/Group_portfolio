@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class EvelynActivity extends AppCompatActivity {
 
@@ -47,6 +48,9 @@ public class EvelynActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
+        } else {
+            Toast toast = Toast.makeText(getApplicationContext(), R.string.noweb_toast_text, Toast.LENGTH_SHORT);
+            toast.show();
         }
     }
 
