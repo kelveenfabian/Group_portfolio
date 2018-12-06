@@ -4,37 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".JohnActivity">
 
-
-<<<<<<< Updated upstream
     <item
         android:id="@+id/git_one"
         android:orderInCategory="1"
-        android:title="@string/link_one"></item>
-=======
-<<<<<<< Updated upstream
-    <item android:title="Item"></item>
-    <item android:title="Item"></item>
-    <item android:title="Item"></item>
-=======
-    <item
-        android:id="@+id/git_one"
-            android:orderInCategory="1"
-            android:title="@string/link_one"></item>
->>>>>>> Stashed changes
+        android:title="@string/link_one"/>
 
     <item
         android:id="@+id/git_two"
         android:orderInCategory="2"
-        android:title="@string/link_two"></item>
+        android:title="@string/link_two"/>
 
     <item
         android:id="@+id/git_three"
-<<<<<<< Updated upstream
         android:orderInCategory="3"
-        android:title="@string/link_three"></item>
-=======
-        android:orderInCategory="3  "
-        android:title="@string/link_three"></item>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+        android:title="@string/link_three"/>
+
 </menu>

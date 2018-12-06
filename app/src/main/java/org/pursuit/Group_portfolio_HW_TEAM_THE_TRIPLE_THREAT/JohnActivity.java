@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-<<<<<<< Updated upstream
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,40 +23,20 @@ public class JohnActivity extends AppCompatActivity {
     private MenuItem gitThree;
     private Spinner gitLinks;
 
-=======
-import android.view.Menu;
-import android.widget.ImageView;
-import android.widget.ScrollView;
-import android.widget.TextView;
-
-public class JohnActivity extends AppCompatActivity {
-private ScrollView txtVw;
-private ImageView imgView;
->>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_john);
-<<<<<<< Updated upstream
-        textView = findViewById(R.id.bio_text);
-=======
-
-        txtVw = findViewById(R.id.john_scrollview);
->>>>>>> Stashed changes
+        scrollView = findViewById(R.id.john_scrollview);
         imgView = findViewById(R.id.john_img);
 
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-<<<<<<< Updated upstream
         getMenuInflater().inflate(R.menu.john_menu, menu);
         return true;
-=======
-        getMenuInflater().inflate(R.menu.john_menu, menu );
-        return true;
 
->>>>>>> Stashed changes
     }
 
     @Override

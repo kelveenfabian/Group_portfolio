@@ -29,7 +29,7 @@ public class ChoosePerson extends AppCompatActivity {
         veenBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), veenPortfolio.class);
+                Intent intent = new Intent(v.getContext(), VeenActivity.class);
                 startActivity(intent);
             }
         });
