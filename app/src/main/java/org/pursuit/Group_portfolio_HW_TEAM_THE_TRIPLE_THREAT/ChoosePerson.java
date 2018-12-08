@@ -31,10 +31,9 @@ public class ChoosePerson extends AppCompatActivity {
         drawerLayout = findViewById(R.id.nav_drawer);
 
         toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        ActionBar actionBar = (ActionBar) getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setHomeAsUpIndicator(R.drawable.ic_launcher_foreground);
+//        ActionBar actionBar = (ActionBar) getSupportActionBar();
+//        actionBar.setDisplayHomeAsUpEnabled(true);
+//        actionBar.setHomeAsUpIndicator(R.drawable.ic_launcher_foreground);
 
 
         navView = findViewById(R.id.nav_view);
@@ -44,7 +43,7 @@ public class ChoosePerson extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     case android.R.id.home:
                         drawerLayout.openDrawer(GravityCompat.START);
-                        return true;
+                        break;
                     case R.id.nav_john:
                         moveToJohn();
                         break;
