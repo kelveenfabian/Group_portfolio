@@ -20,7 +20,6 @@ public class ChoosePerson extends AppCompatActivity {
     private Button evelynBtn;
     private DrawerLayout drawerLayout;
     private NavigationView navView;
-    private android.support.v7.widget.Toolbar toolbar;
 
 
     @Override
@@ -29,12 +28,6 @@ public class ChoosePerson extends AppCompatActivity {
         setContentView(R.layout.nav_drawer);
 
         drawerLayout = findViewById(R.id.nav_drawer);
-
-        toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
-//        ActionBar actionBar = (ActionBar) getSupportActionBar();
-//        actionBar.setDisplayHomeAsUpEnabled(true);
-//        actionBar.setHomeAsUpIndicator(R.drawable.ic_launcher_foreground);
-
 
         navView = findViewById(R.id.nav_view);
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
