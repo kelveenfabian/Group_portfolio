@@ -9,9 +9,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Styles -->
+
     <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
         <item name="android:src">@mipmap/github_marklight</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
     </style>
 
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
