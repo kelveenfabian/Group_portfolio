@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_evelyn"
+        android:title="@string/name_evelyn" />
+
+    <item
+       android:id="@+id/nav_john"
+        android:title="@string/name_john" />
+
+    <item
+        android:id="@+id/nav_kelveen"
+        android:title="@string/name_kelveen" />
+
+
+</menu>

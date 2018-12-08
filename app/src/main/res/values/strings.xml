@@ -16,7 +16,7 @@
     <string name="url_one">https://github.com/garganjohn/Java-Bank.git</string>
     <string name="url_two">https://github.com/garganjohn/Java-Bank.git</string>
     <string name="url_three">https://github.com/garganjohn/Java-Bank.git</string>
-    
+
     <!--Evelyn's Activity Information-->
 
     <string name="evelyn_photo_description">Evelyn Photo</string>
@@ -48,6 +48,14 @@
     <string name="noweb_toast_text">No Browser Available</string>
     <string name="app_goal_text">Welcome! This app will introduce you to three of the most eager
     Android developers etc</string>
+    <string name="john_cool_button">Tap Me!</string>
+    <string name="title_activity_test_drawer">TestDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
 
 </resources>
