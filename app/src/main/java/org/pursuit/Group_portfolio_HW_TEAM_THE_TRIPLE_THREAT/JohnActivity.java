@@ -2,34 +2,17 @@ package org.pursuit.Group_portfolio_HW_TEAM_THE_TRIPLE_THREAT;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ImageView;
-import android.widget.ScrollView;
-import android.widget.Spinner;
-import android.widget.Switch;
-import android.widget.TextView;
 
 public class JohnActivity extends AppCompatActivity {
-    private TextView textView;
-    private ImageView imgView;
-    private ScrollView scrollView;
-    private Menu menu;
-    private MenuItem gitOne;
-    private MenuItem gitTwo;
-    private MenuItem gitThree;
-    private Spinner gitLinks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_john);
-        scrollView = findViewById(R.id.john_scrollview);
-        imgView = findViewById(R.id.john_img);
-
     }
 
     @Override
