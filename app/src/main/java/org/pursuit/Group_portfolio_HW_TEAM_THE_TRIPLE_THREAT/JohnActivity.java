@@ -3,18 +3,16 @@ package org.pursuit.Group_portfolio_HW_TEAM_THE_TRIPLE_THREAT;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
-import android.widget.Spinner;
-import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Button;
+
 
 public class JohnActivity extends AppCompatActivity {
     private TextView textView;
