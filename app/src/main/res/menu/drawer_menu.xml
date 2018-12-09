@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Biographies"></item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/veen_bio"
+            android:layout_height="match_parent"
+            android:icon="@drawable/ic_one"
+            android:title="@string/name_kelveen"
+            android:padding="10dp"/>
+        <item
+            android:id="@+id/evelyn_bio"
+            android:icon="@drawable/ic_two"
+            android:title="@string/name_evelyn" />
+        <item
+            android:id="@+id/john_bio"
+            android:icon="@drawable/ic_three"
+            android:title="@string/name_john" />
+    </group>
+
+</menu>

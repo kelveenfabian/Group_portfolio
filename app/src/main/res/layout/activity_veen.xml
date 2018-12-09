@@ -11,7 +11,7 @@
         android:layout_width="386dp"
         android:layout_height="259dp"
         android:contentDescription="@string/veen_img_desc"
-        android:src="@drawable/image2"
+        android:src="@drawable/veenImg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
