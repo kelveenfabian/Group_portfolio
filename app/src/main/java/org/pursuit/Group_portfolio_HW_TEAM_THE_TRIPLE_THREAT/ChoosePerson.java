@@ -6,12 +6,17 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 
 public class ChoosePerson extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private NavigationView navView;
+    private ActionBarDrawerToggle drawerToggle;
+    private String activityTitle;
+    private boolean mToolBarNavigationListenerIsRegistered = false;
 
 
     @Override
@@ -19,7 +24,30 @@ public class ChoosePerson extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nav_drawer);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        activityTitle = getTitle().toString();
+
         drawerLayout = findViewById(R.id.nav_drawer);
+        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.navigation_drawer_open, R.string.navigation_drawer_close) {
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+                getSupportActionBar().setTitle("Navigation!");
+                invalidateOptionsMenu();
+            }
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                super.onDrawerClosed(drawerView);
+                getSupportActionBar().setTitle(activityTitle);
+                invalidateOptionsMenu();
+            }
+        };
+
+        drawerToggle.setDrawerIndicatorEnabled(true);
+        drawerLayout.setDrawerListener(drawerToggle);
+        drawerToggle.syncState();
 
         navView = findViewById(R.id.nav_view);
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -46,8 +74,13 @@ public class ChoosePerson extends AppCompatActivity {
 
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (drawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
         switch (item.getItemId()) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
@@ -70,5 +103,28 @@ public class ChoosePerson extends AppCompatActivity {
     public void moveToEvelyn() {
         Intent intent = new Intent(this, EvelynActivity.class);
         startActivity(intent);
+    }
+
+    private void enableViews(boolean enable) {
+        if (enable) {
+            drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
+            drawerToggle.setDrawerIndicatorEnabled(false);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            if (!mToolBarNavigationListenerIsRegistered) {
+                drawerToggle.setToolbarNavigationClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        onBackPressed();
+                    }
+                });
+                mToolBarNavigationListenerIsRegistered = true;
+            }
+        } else {
+            drawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+            drawerToggle.setDrawerIndicatorEnabled(true);
+            drawerToggle.setToolbarNavigationClickListener(null);
+            mToolBarNavigationListenerIsRegistered = false;
+        }
     }
 }
