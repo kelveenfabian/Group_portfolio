@@ -26,7 +26,7 @@ public class EvelynActivity extends AppCompatActivity {
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));
                 } catch (android.content.ActivityNotFoundException ex) {
-                    Toast.makeText(EvelynActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EvelynActivity.this, R.string.fab_error_message, Toast.LENGTH_SHORT).show();
                 }
             }
         });

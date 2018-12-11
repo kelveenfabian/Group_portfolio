@@ -60,6 +60,10 @@
     <string name="john_gargan_textname">John Gargan</string>
     <string name="kelveen_fabian_textname">Kelveen Fabian</string>
     <string name="group_photo_description">Group Photo</string>
+    <string name="fab_error_message">There are no email clients installed.</string>
+    <string name="nav_menu_title">Profiles</string>
+    <string name="nav_header_teamName">The Triple Threat</string>
+    <string name="nav_header_proj_name">Group Portfolio</string>
 
 
 </resources>
