@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,6 +16,7 @@ import android.widget.Button;
 
 
 public class JohnActivity extends AppCompatActivity {
+    private FloatingActionButton fab;
     private TextView textView;
     private ImageView imgView;
     private ScrollView scrollView;
@@ -27,11 +29,20 @@ public class JohnActivity extends AppCompatActivity {
         setContentView(R.layout.activity_john);
         scrollView = findViewById(R.id.john_scrollview);
         imgView = findViewById(R.id.john_img);
-        troll = findViewById(R.id.john_cool_btn);
-        troll.setOnClickListener(new View.OnClickListener() {
+//        troll = findViewById(R.id.john_cool_btn);
+//        troll.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                neverGonnaGiveYouUp();
+//            }
+//        });
+
+
+        fab = findViewById(R.id.john_fab);
+        fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                neverGonnaGiveYouUp();
+            public void onClick(View v) {
+               neverGonnaGiveYouUp();
             }
         });
     }
