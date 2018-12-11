@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class JohnActivity extends AppCompatActivity {
@@ -42,8 +43,16 @@ public class JohnActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               neverGonnaGiveYouUp();
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("message/rfc822");
+                intent.putExtra(Intent.EXTRA_EMAIL, "johngargan@pursuit.org");
+                try {
+                    startActivity(Intent.createChooser(intent, "Send mail..."));
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(JohnActivity.this, R.string.fab_error_message, Toast.LENGTH_SHORT).show();
+                }
             }
+
         });
     }
 
