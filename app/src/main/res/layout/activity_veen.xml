@@ -10,7 +10,7 @@
 
     <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/kelveen_image"
-        android:src="@drawable/image2"
+        android:src="@drawable/veen_img"
         android:contentDescription="@string/veen_img_desc"
         app:civ_border_width="0dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,6 +44,19 @@
             android:textSize="@dimen/bio_text_size" />
 
     </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/veen_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_email_white"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
 
 
 </android.support.constraint.ConstraintLayout>
