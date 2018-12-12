@@ -8,17 +8,17 @@
 <group android:checkableBehavior="single">
     <item
         android:id="@+id/nav_evelyn"
-        android:icon="@drawable/ic_one"
+        android:icon="@drawable/icon2"
         android:title="@string/name_evelyn" />
 
     <item
        android:id="@+id/nav_john"
-        android:icon="@drawable/ic_two"
+        android:icon="@drawable/icon3"
         android:title="@string/name_john" />
 
     <item
         android:id="@+id/nav_kelveen"
-        android:icon="@drawable/ic_three"
+        android:icon="@drawable/icon1"
         android:title="@string/name_kelveen" />
 </group>
 
