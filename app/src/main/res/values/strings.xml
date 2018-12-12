@@ -7,9 +7,10 @@
     <string name="name_john">John</string>
 
     <string name="john_img_desc">This is John\'s photo</string>
-    <string name="john_bio">John is a former swim instructor turned coder, he loves eating and doing absolutely nothing.
+    <string name="john_bio">John is a former swim instructor turned coder, he loves eating and thinking about eating.
      He is currently enrolled at Pursuit, a highly competitive programming school with an acceptance rate of 10%.
-     Needless to say this boy knows what\'s up.</string>
+     He enjoys long walks on the beach and videos of cats and dogs being bros.
+    Thanos did nothing wrong, don’t \@ me</string>
     <string name="link_one">Project 1</string>
     <string name="link_two">Project 2</string>
     <string name="link_three">Project 3</string>
@@ -47,7 +48,7 @@
 
     <string name="noweb_toast_text">No Browser Available</string>
     <string name="app_goal_text">Welcome! This app will introduce you to three of the most eager
-    Android developers at Pursuit. Feel free to check out their github projects.</string>
+    Android developers at Pursuit. Feel free to check out their github projects!</string>
     <string name="john_cool_button">Tap Me!</string>
     <string name="title_activity_test_drawer">TestDrawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

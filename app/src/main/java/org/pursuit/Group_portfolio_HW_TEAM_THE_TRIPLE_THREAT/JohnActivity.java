@@ -96,7 +96,8 @@ public class JohnActivity extends AppCompatActivity {
         startActivity(webIntent3);
     }
 
-    public void neverGonnaGiveYouUp() {
+    // used in onClick for @id john_img
+    public void neverGonnaGiveYouUp(View view) {
         Intent astley = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=lXMskKTw3Bc"));
         startActivity(astley);
     }
