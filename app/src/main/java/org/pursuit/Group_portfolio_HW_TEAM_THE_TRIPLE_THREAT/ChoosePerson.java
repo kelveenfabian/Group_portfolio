@@ -50,6 +50,7 @@ public class ChoosePerson extends AppCompatActivity {
         drawerToggle.syncState();
 
         navView = findViewById(R.id.nav_view);
+        navView.setItemIconTintList(null);
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
