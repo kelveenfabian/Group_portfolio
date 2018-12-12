@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        >
         <activity android:name=".ChoosePerson">
             >
             <intent-filter>
@@ -19,7 +20,8 @@
         </activity>
         <activity
             android:name=".JohnActivity"
-            android:parentActivityName=".ChoosePerson" />
+            android:parentActivityName=".ChoosePerson"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".VeenActivity"
             android:parentActivityName=".ChoosePerson" />
