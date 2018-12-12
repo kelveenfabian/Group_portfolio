@@ -64,6 +64,7 @@
     <string name="nav_menu_title">Profiles</string>
     <string name="nav_header_teamName">The Triple Threat</string>
     <string name="nav_header_proj_name">Group Portfolio</string>
+    <string name="welcome_screen">WELCOME SCREEN</string>
 
 
 </resources>
