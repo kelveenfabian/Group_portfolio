@@ -24,7 +24,8 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".VeenActivity"
-            android:parentActivityName=".ChoosePerson" />
+            android:parentActivityName=".ChoosePerson"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".EvelynActivity"
             android:parentActivityName=".ChoosePerson" />
