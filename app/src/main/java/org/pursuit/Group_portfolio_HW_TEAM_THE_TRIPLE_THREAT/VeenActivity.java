@@ -25,9 +25,8 @@ public class VeenActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("message/rfc822");
-                intent.putExtra(Intent.EXTRA_EMAIL, "kelveenfabian@pursuit.org");
+                String mail = getString(R.string.veen_email);
+                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse(mail));
                 try {
                     startActivity(Intent.createChooser(intent, "Send mail..."));
                 } catch (android.content.ActivityNotFoundException ex) {
