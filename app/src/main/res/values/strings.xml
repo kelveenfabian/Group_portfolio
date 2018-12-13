@@ -1,10 +1,6 @@
 <resources>
 
     <!-- John -->
-    <string name="app_name">Group Portfolio</string>
-    <string name="name_evelyn">Evelyn</string>
-    <string name="name_kelveen">Kelveen</string>
-    <string name="name_john">John</string>
 
     <string name="john_img_desc">This is John\'s photo</string>
     <string name="john_bio">John is a former swim instructor turned coder, he loves eating and thinking about eating.
@@ -17,6 +13,8 @@
     <string name="url_one">https://github.com/garganjohn/Java-Bank.git</string>
     <string name="url_two">https://github.com/garganjohn/Test-Menu.git</string>
     <string name="url_three">https://github.com/garganjohn/TEXT_FILES_PROJECT</string>
+    <string name="john_gargan_textname">John Gargan</string>
+    <string name="john_email">mailto:johngargan@pursuit.org</string>
 
     <!--Evelyn's Activity Information-->
 
@@ -32,6 +30,7 @@
         Evelyn is so excited to be an Android Fellow at Pursuit, learning new things every day.
         She looks forward to what the future will bring and how she can contribute to the tech industry in meaningful,
     positive and unique way.</string>
+    <string name="evelyn_lucas_textname">Evelyn Lucas</string>
 
     <!--Kelveen's Activity Information-->
 
@@ -47,9 +46,16 @@
         I have experience with applications that deal with managing accounts and customer information within limousine services,
         building mobile games, and creating videos within technologies such as Adobe Premiere.
         I\'m currently looking for opportunities that will allow me to continue building my skill set
-        in either mobile applications or the gaming sector. I DOES THIS FAM. I GETS SCRAPPY ON THE KEYBOARDS. HOLLA AT ME.</string>
+        in either mobile applications or the gaming sector.</string>
+    <string name="veen_email">mailto:kelveenfabian@pursuit.org</string>
+    <string name="kelveen_fabian_textname">Kelveen Fabian</string>
+
     <!--General Activity Information-->
 
+    <string name="app_name">Group Portfolio</string>
+    <string name="name_evelyn">Evelyn</string>
+    <string name="name_kelveen">Kelveen</string>
+    <string name="name_john">John</string>
     <string name="noweb_toast_text">No Browser Available</string>
     <string name="app_goal_text">Welcome! This app will introduce you to three of the most eager
     Android developers at Pursuit. Feel free to check out their \ngithub projects!</string>
@@ -61,14 +67,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="evelyn_lucas_textname">Evelyn Lucas</string>
-    <string name="john_gargan_textname">John Gargan</string>
-    <string name="kelveen_fabian_textname">Kelveen Fabian</string>
     <string name="group_photo_description">Group Photo</string>
     <string name="fab_error_message">There are no email clients installed.</string>
     <string name="nav_menu_title">Profiles</string>
     <string name="nav_header_teamName">The Triple Threat</string>
-    <string name="nav_header_proj_name">Group Portfolio</string>
     <string name="welcome_screen">WELCOME SCREEN</string>
     <string name="mini_group_photo_description">Mini group photo</string>
 

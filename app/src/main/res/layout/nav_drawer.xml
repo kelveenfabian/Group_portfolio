@@ -10,7 +10,7 @@
         android:id="@+id/nav_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#EEFF41">
+        android:background="@color/main_activity_back_color">
 
         <ImageView
             android:id="@+id/group_photo"
@@ -26,12 +26,11 @@
         <TextView
             android:id="@+id/chooseperson_txtvw"
             android:layout_height="wrap_content"
-           
             android:gravity="center"
             android:layout_marginBottom="72dp"
             android:padding="@dimen/goal_textpadding"
             android:textSize="@dimen/goal_textsize"
-            android:textColor="#0813ea"
+            android:textColor="@color/welcome_text_color"
             android:text="@string/app_goal_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80D8FF"
+    android:background="@color/veen_back_color"
     tools:context=".VeenActivity">
 
 
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_layout_margin"
         android:src="@drawable/ic_email_white"
-        app:backgroundTint="#000000"
+        app:backgroundTint="@color/veen_fab_back_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

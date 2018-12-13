@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="#006776"
+    android:background="@color/nav_header_color"
     android:orientation="vertical"
     android:gravity="bottom"
     android:padding="@dimen/nav_header_padding"
@@ -24,7 +24,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#fafafa"
+        android:textColor="@color/header_name_color"
         android:paddingTop="@dimen/nav_headertext_padding"
         android:text="@string/nav_header_teamName"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
@@ -34,8 +34,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFFAFAFA"
-        android:text="@string/nav_header_proj_name"
+        android:textColor="@color/header_titleText_color"
+        android:text="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

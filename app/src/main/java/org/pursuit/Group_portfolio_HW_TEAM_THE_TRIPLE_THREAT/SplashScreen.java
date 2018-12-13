@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class SplashScreen extends AppCompatActivity {
-    private static int SCREEN_TIME = 3000;//Controls the amount of time the splash screen will be up for. (3000 == 3 seconds)
+    private static int SCREEN_TIME = 1000;//Controls the amount of time the splash screen will be up for. (3000 == 3 seconds)
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
