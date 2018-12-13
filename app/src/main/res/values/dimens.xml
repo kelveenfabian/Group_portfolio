@@ -10,7 +10,7 @@
     <dimen name="fab_layout_margin">16dp</dimen>
     <dimen name="bio_textview_padding">8dp</dimen>
     <dimen name="group_photo_height">300dp</dimen>
-    <dimen name="goal_text_height">128dp</dimen>
+    <dimen name="goal_text_width">300dp</dimen>
     <dimen name="goal_textsize">20sp</dimen>
     <dimen name="goal_textpadding">16dp</dimen>
     <dimen name="nav_header_padding">16dp</dimen>

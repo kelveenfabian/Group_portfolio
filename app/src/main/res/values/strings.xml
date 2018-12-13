@@ -27,7 +27,11 @@
     <string name="evelyn_menu_one">Mad Libs App</string>
     <string name="evelyn_menu_two">Adventure Game</string>
     <string name="evelyn_menu_three">Bankteller Console</string>
-    <string name="evelyn_bio">Evelyn Lucas is an Android Fellow at Pursuit. She was born and raised in Queens</string>
+    <string name="evelyn_bio">Evelyn was born and raised in Queens (fyi, the birthplace of the Ramones). Growing up,
+        she never once considered a career in the tech industry but all that has changed in the past couple of months.
+        Evelyn is so excited to be an Android Fellow at Pursuit, learning new things every day.
+        She looks forward to what the future will bring and how she can contribute to the tech industry in meaningful,
+    positive and unique way.</string>
 
     <!--Kelveen's Activity Information-->
 
@@ -48,7 +52,7 @@
 
     <string name="noweb_toast_text">No Browser Available</string>
     <string name="app_goal_text">Welcome! This app will introduce you to three of the most eager
-    Android developers at Pursuit. Feel free to check out their github projects!</string>
+    Android developers at Pursuit. Feel free to check out their \ngithub projects!</string>
     <string name="john_cool_button">Tap Me!</string>
     <string name="title_activity_test_drawer">TestDrawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
