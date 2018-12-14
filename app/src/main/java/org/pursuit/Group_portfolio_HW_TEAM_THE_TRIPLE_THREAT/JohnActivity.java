@@ -67,6 +67,18 @@ public class JohnActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        queen.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        queen.start();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.john_menu, menu);
         return true;
