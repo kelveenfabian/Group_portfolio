@@ -23,11 +23,16 @@ public class JohnActivity extends AppCompatActivity {
     private ScrollView scrollView;
     private Button troll;
     private MediaPlayer astley;
+    private MediaPlayer queen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_john);
+
+        queen = MediaPlayer.create(this, R.raw.dancingqueen);
+        queen.start();
+
         scrollView = findViewById(R.id.john_scrollview);
         imgView = findViewById(R.id.john_img);
 //        troll = findViewById(R.id.john_cool_btn);
@@ -53,6 +58,12 @@ public class JohnActivity extends AppCompatActivity {
             }
 
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        queen.release();
     }
 
     @Override
