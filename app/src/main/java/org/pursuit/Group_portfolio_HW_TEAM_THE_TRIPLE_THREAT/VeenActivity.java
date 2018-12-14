@@ -3,6 +3,7 @@ package org.pursuit.Group_portfolio_HW_TEAM_THE_TRIPLE_THREAT;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -14,12 +15,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class VeenActivity extends AppCompatActivity {
+    MediaPlayer song;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_veen);
+        song = MediaPlayer.create(this, R.raw.sleepwalk);
+        song.start();
 
         FloatingActionButton fab = findViewById(R.id.veen_fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +42,11 @@ public class VeenActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        song.release();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
