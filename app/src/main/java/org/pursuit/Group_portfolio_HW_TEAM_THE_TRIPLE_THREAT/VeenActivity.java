@@ -49,6 +49,19 @@ public class VeenActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        song.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        song.start();
+    }
+
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.veen_menu, menu);
         return true;

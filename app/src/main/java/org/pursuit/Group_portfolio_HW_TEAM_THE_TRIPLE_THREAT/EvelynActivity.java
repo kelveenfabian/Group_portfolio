@@ -20,9 +20,8 @@ public class EvelynActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Intent.ACTION_SEND);
-                i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL  , "evelynlucas@pursuit.org");
+                String email = getString(R.string.evelyn_email);
+                Intent i = new Intent(Intent.ACTION_SENDTO, Uri.parse(email));
                 try {
                     startActivity(Intent.createChooser(i, "Send mail..."));
                 } catch (android.content.ActivityNotFoundException ex) {
