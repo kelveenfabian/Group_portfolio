@@ -22,7 +22,7 @@ public class VeenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_veen);
-        song = MediaPlayer.create(this, R.raw.sleepwalk);
+        song = MediaPlayer.create(this, R.raw.sicko_mode);
         song.start();
 
         FloatingActionButton fab = findViewById(R.id.veen_fab);
