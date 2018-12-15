@@ -1,6 +1,7 @@
 package org.pursuit.Group_portfolio_HW_TEAM_THE_TRIPLE_THREAT;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -11,11 +12,14 @@ import android.view.View;
 import android.widget.Toast;
 
 public class EvelynActivity extends AppCompatActivity {
+    MediaPlayer song;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_evelyn);
+        song = MediaPlayer.create(this, R.raw.ramones);
+        song.start();
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +71,24 @@ public class EvelynActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(getApplicationContext(), R.string.noweb_toast_text, Toast.LENGTH_SHORT);
             toast.show();
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        song.release();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        song.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        song.start();
     }
 
 
